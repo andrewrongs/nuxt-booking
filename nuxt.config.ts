@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
     fallback: 'light',
+    componentName: 'ColorMode',
     storageKey: 'nuxt-color-mode'
   }, 
   image: {

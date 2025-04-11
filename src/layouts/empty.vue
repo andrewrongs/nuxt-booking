@@ -12,12 +12,12 @@ const colorMode = useColorMode();
 
 <style>
 .dark {
-  background-color: #1a202c;
-  color: #e2e8f0;
+  background-color: #1a1a1a;
+  color: #f7fafc;
 }
 
 .light {
   background-color: #f7fafc;
-  color: #2d3748;
+  color: #1a1a1a;
 }
 </style>

@@ -46,7 +46,7 @@
         <NuxtLink  :to="{ name: 'login' }">登入</NuxtLink>
       </li>
       <li class="pr-6 text-sm cursor-pointer">
-        <NuxtLink :to="{ name: 'register' }">我是新朋友</NuxtLink>
+        <NuxtLink :to="{ name: 'register' }">新朋友這裡</NuxtLink>
       </li>
       <li>
         <color-mode />
