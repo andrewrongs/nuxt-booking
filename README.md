@@ -1,13 +1,20 @@
-# Booking
+<div align="center">
+
+# Booking Website
+
 ![Static Badge](https://img.shields.io/badge/Vue-green) ![Static Badge](https://img.shields.io/badge/tailwind-blue) ![Static Badge](https://img.shields.io/badge/Vite-green) ![Static Badge](https://img.shields.io/badge/Node-v21.6.2-blue)  ![Static Badge](https://img.shields.io/badge/pnpm-9.7.0-orange)
-## 資料夾架構
- - public # 不需編譯靜態檔
- - src # 主原始碼
-    - assets # 需編譯靜態檔
-    - components # 元件放置處
-    - layouts # 基礎頁面呈現配置放置處
+
+</div>
+
+## 目錄架構
+- public # 不需編譯靜態檔
+- src # 主原始碼
+    - assets # 靜態檔
+    - components # 元件
+    - layouts # 版面配置
+    - composables # 自訂組合式函式
     - locales # i18n
-    - plugins # 三方外掛
+    - plugins # 三方套件
     - middleware # 中介
     - store # pinia
     - pages # 頁面
@@ -29,30 +36,9 @@ pnpm run dev
 ```
 pnpm build 
 ```
-
-## 技術棧
--	css框架：twailwind
--	狀態管理：Pinia
--   多語系: nuxt@i18n
--	後端服務：laravel
--	建構工具：Vite
-
 ## 功能概述
-
-
-<!-- ## 部署流程
-- `pnpm build` 生成 **dist 資料夾**
-
-- `git add dist -f` 加入 dist 資料夾
-
-- `git commit -m "Update"` 命名 commit
-
-- `git subtree  push --prefix dist origin gh-pages` 部署 gh-pages branch -->
-
-<!-- ### 專案呈現 (https://105555.github.io/watches-store/) -->
 
 ### 注意
 
-<!-- 1. <strong>未經允許請勿發佈於相關社交平台或者部落格等網路相關平台<strong> -->
 
 
