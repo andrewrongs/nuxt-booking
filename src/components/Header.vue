@@ -43,13 +43,13 @@
     </div>
     <ul class="flex px-6">
       <li class="pr-6 text-sm cursor-pointer">
+        <color-mode />
+      </li>
+      <li class="pr-6 text-sm cursor-pointer">
         <NuxtLink  :to="{ name: 'login' }">登入</NuxtLink>
       </li>
       <li class="pr-6 text-sm cursor-pointer">
         <NuxtLink :to="{ name: 'register' }">新朋友這裡</NuxtLink>
-      </li>
-      <li>
-        <color-mode />
       </li>
     </ul>
   </header>
@@ -57,6 +57,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
+import ColorMode from "@/components/common/ColorMode.vue";
 
 interface Options {
   value: string;
