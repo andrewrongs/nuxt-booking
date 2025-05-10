@@ -127,14 +127,14 @@
           <div>
             <label for="username" class="block text-xl font-medium text-zinc-500">Email</label>
             <input v-model="username" id="username" type="text" required
-              class="mt-1 block w-full px-4 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"
+              class="mt-1 block w-full px-4 py-2 border border-gray-300 text-black shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"
             />
           </div>
 
           <div>
             <label for="password" class="block text-xl font-medium text-zinc-500">Password</label>
             <input v-model="password" id="password" type="password" required
-              class="mt-1 block w-full px-4 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"
+              class="mt-1 block w-full px-4 py-2 border border-gray-300 text-black shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-md"
             />
           </div>
 
