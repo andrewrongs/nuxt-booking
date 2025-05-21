@@ -57,7 +57,6 @@
             />
           </div>
           
-
           <p class="text-zinc-500 text-sm">
             By signing in or creating an account, you agree with our 
             <a href="#" class="text-violet-500 hover:underline">Terms & Conditions</a> and 
@@ -78,7 +77,9 @@
           </button>
           <p class="text-zinc-500 text-center">
             Have a account? 
-            <a href="/signup" class="text-violet-500 hover:text-violet-700 hover:underline text-xl">Sign in</a>
+            <span class="text-violet-500 hover:text-violet-700 hover:underline text-xl">
+              <NuxtLink :to="{ name: 'login' }">Sign in</NuxtLink>
+            </span>
           </p>
         </form>
       </div>
@@ -87,7 +88,6 @@
 </template>
   
 <script setup lang="ts">
-
 
 const notify = () => {
     useNuxtApp().$toast("就是這麼簡單！")

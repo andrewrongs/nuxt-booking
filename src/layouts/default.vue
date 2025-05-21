@@ -6,6 +6,8 @@
       <LazyFooter class="xl:mx-auto xl:px-10 xl:container"/> <!--使用時才載入-->
     </div>
   </ClientOnly>
+  <Member/>
+  <SelectRoom/>
 </template>
 
 <script setup lang="ts">
