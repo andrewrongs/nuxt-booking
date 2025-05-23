@@ -45,7 +45,6 @@
     </footer>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue'
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 
 interface Options {

@@ -26,8 +26,8 @@
 
 <script setup lang="ts">
 import { Switch } from '@headlessui/vue';
-const colorMode = useColorMode();
 
+const colorMode = useColorMode();
 const toggleColorTheme = () => {
   colorMode.value = colorMode.value === "dark" ? "light" : "dark";
 };
