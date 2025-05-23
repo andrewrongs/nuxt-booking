@@ -1,11 +1,15 @@
 <template>
-  <ClientOnly>
-    <div :class="`${colorMode.value}`" class="md:w-[768px] lg:w-[1024px] xl:w-[1280px]">
-      <Header class="xl:mx-auto xl:px-10 xl:container"/>
-        <slot />
-      <LazyFooter class="xl:mx-auto xl:px-10 xl:container"/> <!--使用時才載入-->
-    </div>
-  </ClientOnly>
+  <div>
+    <ClientOnly>
+      <div :class="`${colorMode.value}`" class="md:w-[768px] lg:w-[1024px] xl:w-[1280px]">
+        <Header class="xl:mx-auto xl:px-10 xl:container"/>
+          <slot />
+        <LazyFooter class="xl:mx-auto xl:px-10 xl:container"/> <!--使用時才載入-->
+      </div>
+    </ClientOnly>
+    <Member/>
+    <SelectRoom/>
+  </div>
 </template>
 
 <script setup lang="ts">

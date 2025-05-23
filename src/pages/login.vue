@@ -48,7 +48,9 @@
           </button>
           <p class="text-center text-zinc-500">
             Don't have an account yet? 
-            <a href="/register" class="text-xl text-violet-500 hover:text-violet-700 hover:underline">Sign up</a>
+            <span class="text-xl text-violet-500 hover:text-violet-700 hover:underline">
+              <NuxtLink :to="{ name: 'register' }">Sign up</NuxtLink>
+            </span>
           </p>
         </form>
       </div>
@@ -56,13 +58,7 @@
   </div>
 </template>
 
-
-<style>
-
-</style>
-
 <script setup lang="ts">
-import { ref } from 'vue'
 definePageMeta({
   layout: 'empty'
 })
@@ -74,3 +70,5 @@ const errorMessage = ref('')
 const handleLogin = () => {
 }
 </script>
+
+

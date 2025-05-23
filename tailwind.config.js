@@ -9,6 +9,10 @@ export default {
     "./src/app.vue",
   ],
   darkMode: 'class',
+  fontFamily: {
+    sans: ['Noto Serif TC', 'sans-serif'],
+    serif: ['Noto Serif TC', 'serif'],
+  },
   theme: {
     extend: {
       screens: {
