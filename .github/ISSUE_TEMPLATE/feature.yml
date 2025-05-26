@@ -1,0 +1,25 @@
+name: 功能開發
+description: 新功能開發
+title: "[FEATURE] 標題"
+labels: ["type: feat:(feature)"]
+body:
+- type: input
+  attributes:
+    label: 預計完成時間
+    description: 格式 YYYY-MM-DD HH:MM
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 需求
+    description: 描述開發需求，可使用 Markdown 格式。
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: 其他補充
+    description: |
+      任何連結、截圖或影片等補充訊息，都可寫在這。
+      提示：可以點擊此區域以突出顯示，然後拖入圖片或相關文件。
+  validations:
+    required: false
