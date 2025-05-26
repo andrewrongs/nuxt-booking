@@ -1,6 +1,6 @@
 name: 功能開發
 description: 新功能開發
-title: "[FEATURE] 標題"
+title: "[Feature] 標題"
 labels: ["type: feat:(feature)"]
 body:
 - type: input

@@ -3,16 +3,9 @@ description: 提交一個錯誤 / 問題
 title: "[BUG] 標題"
 labels: ["type: fix:(bug)"]
 body:
-- type: checkboxes
-  attributes:
-    label: 是否已存在相關的問題？(必填)
-    description: 請搜尋看看是否已有類似的錯誤問題。
-    options:
-    - label: 我已搜尋過現有的問題
-      required: true
 - type: textarea
   attributes:
-    label: 當前行為(必填)
+    label: 當前行為
     description: 簡單描述做了什麼事情
     render: markdown
   validations:
@@ -36,7 +29,6 @@ body:
         - 作業系統:
         - 瀏覽器:
         - 瀏覽器版本:
-    render: markdown
   validations:
     required: false
 - type: textarea
@@ -46,7 +38,7 @@ body:
     required: true
 - type: input
   attributes:
-    label: 預計完成時間(必填)
+    label: 預計完成時間
     description: 格式 YYYY-MM-DD HH:MM
   validations:
     required: true
