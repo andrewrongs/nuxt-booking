@@ -106,17 +106,17 @@ interface Hotel {
 
 const location: Array<string> = ["Bali", "Okinawa", "Taiwan"];
 const popularLocations: Array<{ name: string; image: string;  country:string}> = [
-  { name: "Osaka", image: "/Osaka.jpg", country:'Japan' },
-  { name: "Kyoto", image: "/Kyoto.jpg", country:'Japan' },
-  { name: "Reykjavíc", image: "/Reykjavic.jpg", country:'iceland' },
-  { name: "Paris", image: "/Paris.jpg", country:'France' },
-  { name: "Roma", image: "/Roman.jpg", country:'Italy' },
-  { name: "Bangkok", image: "/Bangkok.jpg", country:'Thailand' },
+  { name: "Osaka", image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Osaka.jpg", country:'Japan' },
+  { name: "Kyoto", image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Kyoto.jpg", country:'Japan' },
+  { name: "Reykjavíc", image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Reykjavic.jpg", country:'iceland' },
+  { name: "Paris", image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Paris.jpg", country:'France' },
+  { name: "Roma", image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Roman.jpg", country:'Italy' },
+  { name: "Bangkok", image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Bangkok.jpg", country:'Thailand' },
 ];
 const inspirations: Array<{ title: string; content: string;  image:string}> = [
-  { title: "The fifth most visited country", content: "Italy is the fifth most visited country in the world, with a total of 52.3 million…", image:'/italy.jpg' },
-  { title: "Visit Thailand for Bangkok", content: "Asian tourists primarily visit Thailand for Bangkok and the historical, natural, and…", image:'/Thailand.jpg' },
-  { title: "Lord of the Rings Tour", content: "The national cuisine has been described as Pacific Rim, incorporating the native Māori…", image:'/NewZealand.jpg' },
+  { title: "The fifth most visited country", content: "Italy is the fifth most visited country in the world, with a total of 52.3 million…", image:'https://bookingimg.s3.us-east-1.amazonaws.com/Popular/italy.jpg' },
+  { title: "Visit Thailand for Bangkok", content: "Asian tourists primarily visit Thailand for Bangkok and the historical, natural, and…", image:'https://bookingimg.s3.us-east-1.amazonaws.com/Popular/Thailand.jpg' },
+  { title: "Lord of the Rings Tour", content: "The national cuisine has been described as Pacific Rim, incorporating the native Māori…", image:'https://bookingimg.s3.us-east-1.amazonaws.com/Popular/NewZealand.jpg' },
 ]
 const hotels: Array<Hotel> = [
   {
@@ -124,28 +124,28 @@ const hotels: Array<Hotel> = [
     name: "Hotel Aqua",
     price: 2480,
     evaluate: 5,
-    image: "/top1.jpg",
+    image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/top1.jpg",
   },
   {
     location: "Okinawa",
     name: "Mr. Kawasaki Inn",
     price: 3380,
     evaluate: 4,
-    image: "/top2.jpg",
+    image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/top2.jpg",
   },
   {
     location: "Bali",
     name: "Weekly Paradise",
     price: 4780,
     evaluate: 4,
-    image: "/top3.jpg",
+    image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/top3.jpg",
   },
   {
     location: "Taiwan",
     name: "Beast Hotel",
     price: 1980,
     evaluate: 4,
-    image: "/top4.jpg",
+    image: "https://bookingimg.s3.us-east-1.amazonaws.com/Popular/top4.jpg",
   },
 ];
 
