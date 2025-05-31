@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col min-h-screen bg-white xl:flex-row">
     <div class="xl:w-[70%] relative bg-white">
-      <img src="/img/login.jpg" alt="Login Image" class="hidden md:block w-full max-h-screen object-cover xl:object-[center_70%]" />
-      <img src="/img/logo-aloha.svg" alt="Logo" class="absolute w-32 top-8 left-10" />
+      <NuxtImg src="https://bookingimg.s3.us-east-1.amazonaws.com/Login/login.jpg" alt="Login Image" class="hidden md:block w-full max-h-screen object-cover xl:object-[center_70%]" />
+      <NuxtImg src="/logo.svg" alt="Logo" class="absolute w-32 top-8 left-10" />
       <p class="hidden xl:block text-black text-5xl font-bold absolute top-64 left-20 w-[500px] tracking-wide">
         An ideal hotel makes a wonderful Trip
       </p>

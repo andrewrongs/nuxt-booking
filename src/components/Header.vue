@@ -2,7 +2,7 @@
     <header class="relative z-50 flex flex-wrap items-center justify-around py-6 xl:container">
         <div class="flex-1 pl-24">
             <NuxtLink :to="{ name: 'index' }" class="inline-block">
-                <img src="@/assets/img/logo-aloha.svg" alt="ALOHA" class="h-8 cursor-pointer" />
+                <NuxtImg src="/logo.svg" alt="ALOHA" class="h-8 cursor-pointer" />
             </NuxtLink>
         </div>
         <div class="flex items-center space-x-8">
