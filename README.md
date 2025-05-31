@@ -7,9 +7,9 @@
 </div>
 
 ## 目錄架構
-- public # 不需編譯靜態檔
-- src # 主原始碼
-    - assets # 靜態檔
+- src
+    - public # 不需編譯靜態檔
+    - assets # 靜態檔案
     - components # 元件
     - layouts # 版面配置
     - composables # 自訂組合式函式
@@ -18,6 +18,9 @@
     - middleware # 中介
     - store # pinia
     - pages # 頁面
+    - types # 型別
+    - utils # 工具
+    - api # API
     
 ## 指令
 
