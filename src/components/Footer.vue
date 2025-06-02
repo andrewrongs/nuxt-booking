@@ -1,29 +1,22 @@
 <template>
     <footer class="z-50 flex items-center justify-around py-6 realtive">
-        <h2>© 2024 ALOHA, Inc. All rights reserved.</h2>
+        <h2>© 2025 ALOHA Inc. All rights reserved.</h2>
         <ul class="flex justify-between">
             <li class="pr-6 cursor-pointer">FAQs</li>
             <li class="pr-6 cursor-pointer">聯繫</li>
             <li class="pr-6 cursor-pointer">隱私權政策</li>
         </ul>
           <div class="flex items-center space-x-6">
-            <Menu as="div" class="relative inline-block text-left">
+            <Menu as="div" class="relative inline-block text-left group">
               <MenuButton class="flex items-center space-x-1">
                 <span
                   class="flex items-center tracking-wide cursor-pointer mdi mdi-currency-usd mdi-20px"
                 ></span>
                 <span class="text-sm">{{ baseCurrency }}</span>
-                <span class="mdi mdi-menu-down mdi-24px"></span>
+                <span class="mdi mdi-menu-up mdi-24px"></span>
               </MenuButton>
-              <transition
-                enter-active-class="transition duration-100 ease-out"
-                enter-from-class="transform scale-95 opacity-0"
-                enter-to-class="transform scale-100 opacity-100"
-                leave-active-class="transition duration-75 ease-in"
-                leave-from-class="transform scale-100 opacity-100"
-                leave-to-class="transform scale-95 opacity-0"
-              >
-                <MenuItems class="absolute w-24 text-center bg-white rounded-md shadow-xl dark:bg-gray-600 focus:outline-none">
+              <div class="hidden group-hover:block">
+                <MenuItems static class="absolute w-24 mb-2 text-center bg-white rounded-md shadow-xl bottom-full dark:bg-gray-600 focus:outline-none">
                   <div>
                       <MenuItem v-for="option in currencyOptions" :key="option.value" v-slot="{ active }">
                           <button
@@ -39,7 +32,7 @@
           
                   </div>
                 </MenuItems>
-              </transition>
+              </div>
             </Menu>
           </div>
     </footer>
