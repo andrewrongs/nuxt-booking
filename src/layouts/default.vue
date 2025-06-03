@@ -5,6 +5,8 @@
         <Header class="xl:mx-auto xl:px-10 xl:container"/>
           <slot />
         <LazyFooter class="xl:mx-auto xl:px-10 xl:container"/> <!--使用時才載入-->
+        <reserve/>
+        <success/>
       </div>
     </ClientOnly>
   </div>
